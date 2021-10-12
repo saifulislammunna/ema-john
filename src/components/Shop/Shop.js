@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+
 import './Shop.css';
 
 const Shop = () => {
@@ -45,7 +46,7 @@ const Shop = () => {
         if(exists){
             const rest = cart.filter(pd => pd.key !== product.key);
             exists.quantity = exists.quantity + 1;
-            newCart = [...rest, product];
+            newCart = [...rest,  exists];
 
         }
         else{
