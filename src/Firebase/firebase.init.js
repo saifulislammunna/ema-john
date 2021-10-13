@@ -17,4 +17,11 @@ Initial Setup
 5. Enable auth method
 
 
+----------------------
+
+step-2:
+1. Create Login Component
+2. Create Register Component
+3.Create Route for Login and Register
+
 */
