@@ -38,8 +38,9 @@ step-3
 step-4:
 1. create a auth context 
 2. create aontext provider
-3. use auth provider
-4. create useAuth Hook
+3. set context provider context value
+4. use auth provider
+5. create useAuth Hook
 
 
 */
