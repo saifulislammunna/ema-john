@@ -48,7 +48,7 @@ const Shop = () => {
           }
           setCart(storedCart);
         }
-    }, [products]);
+    }, [ ]);
     const handleAddToCart = (product) => {
         const exists = cart.find(pd => pd.key === product.key )
         let newCart = [];
