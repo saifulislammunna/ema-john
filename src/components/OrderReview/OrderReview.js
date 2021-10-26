@@ -7,8 +7,8 @@ import { clearTheCart, removeFromDb } from '../../utilities/fakedb';
 import { useHistory } from 'react-router';
 
 const OrderReview = () => {
-    const [products,setProducts] = useProducts();
-    const [cart, setCart] = useCart(products);
+     
+    const [cart, setCart] = useCart( );
     const history = useHistory()
     const handleRemove = key => {
          const newCart = cart.filter(product => product.key !== key);
