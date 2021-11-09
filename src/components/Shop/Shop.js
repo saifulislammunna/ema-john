@@ -19,7 +19,7 @@ const Shop = () => {
     useEffect(() => {
         // console.log('product ApI called');
         /* fetch('./products.json') */
-        fetch(`http://localhost:5000/products?page=${page}&&size=${size}`)
+        fetch(`https://calm-brushlands-10223.herokuapp.com/products?page=${page}&&size=${size}`)
         .then(res => res.json())
         .then(data => {
             setProducts(data.products);
